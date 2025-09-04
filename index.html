@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <input type="text" class="search-box" placeholder="Search friend...">
+            <div class="friends-list">
+                <div class="friend">Rohit</div>
+                <div class="friend">Rahul</div>
+                <div class="friend">Sharvari</div>
+                <div class="friend">Abhishek</div>
+                <div class="friend">Rutuja</div>
+            </div>
+            <button class="add-friend">+</button>
+            <button class="delete-all">Delete All Chats</button>
+        </div>
+        <div class="chatbar">
+            <div class="chat-header">Select a Friend</div>
+            <div class="chat-window"> </div>
+            <button class="delete-chat">Delete Current Chat</button>
+            <div class="emoji-panel" style="display:none;"></div>
+            <div class="chat-input">
+                <button class="emoji-btn">Emoji</button>
+                <input type="text" placeholder="Type a message...">
+                <button class="send">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
